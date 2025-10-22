@@ -4,3 +4,19 @@
 
 
 Workshop repo
+
+1 install pdman desktop
+2 instal vs code
+
+vs code
+F1 -> settings
+ dev.containers.dockerPath
+ zoek:  Dev containers  settings
+   setting  Docker path
+     -> replace docker by podman
+
+clone repo
+
+restart after closing all
+  open folder   rf-browser-library-devcontainer
+F1  rebuild and reopen container
