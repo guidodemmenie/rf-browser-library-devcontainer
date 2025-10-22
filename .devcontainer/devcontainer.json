@@ -1,6 +1,6 @@
 {
 	"name": "RF Browser Library",
-	"image": "marketsquare/robotframework-browser:19",
+	"image": "marketsquare/robotframework-browser",
 	"remoteUser": "pwuser",
 	"customizations": {
 		"vscode": {
