@@ -5,8 +5,8 @@
 
 Workshop repo
 
-1 install pdman desktop
-2 instal vs code
+1 install podman desktop   --  https://podman-desktop.io/
+2 instal visual studio code --  https://code.visualstudio.com/
 
 vs code
 F1 -> settings
