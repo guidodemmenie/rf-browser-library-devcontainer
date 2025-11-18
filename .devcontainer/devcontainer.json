@@ -4,14 +4,14 @@
 	"remoteUser": "pwuser",
 	"customizations": {
 		"vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/home/pwuser/.venv/bin/python"
+            },
             "extensions": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-                "charliermarsh.ruff",
                 "d-biehl.robotcode",
-                "tamasfe.even-better-toml",
                 "ms-azuretools.vscode-docker",
-                "Gruntfuggly.todo-tree",
                 "shardulm94.trailing-spaces"
 			]
 		}
