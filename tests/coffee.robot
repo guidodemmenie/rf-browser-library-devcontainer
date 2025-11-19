@@ -6,7 +6,7 @@ ${UESR}
 ${PASSWORD}
 
 *** Test Cases ***
-Open Google
+Is There Coffee
     New Browser    chromium    headless=True
     New Page    https://www.conflux.nl
     Get Element    text=Coffee?
