@@ -1,0 +1,12 @@
+atpborg3sut_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-amsterdam-1.oraclecloud.com))(connect_data=(service_name=ge8ef0247e05788_atpborg3sut_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+atpborg3sut_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-amsterdam-1.oraclecloud.com))(connect_data=(service_name=ge8ef0247e05788_atpborg3sut_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+atpborg3sut_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-amsterdam-1.oraclecloud.com))(connect_data=(service_name=ge8ef0247e05788_atpborg3sut_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+atpborg3sut_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-amsterdam-1.oraclecloud.com))(connect_data=(service_name=ge8ef0247e05788_atpborg3sut_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+atpborg3sut_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-amsterdam-1.oraclecloud.com))(connect_data=(service_name=ge8ef0247e05788_atpborg3sut_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
