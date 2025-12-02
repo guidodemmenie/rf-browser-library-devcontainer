@@ -16,5 +16,6 @@
                 "shardulm94.trailing-spaces"
 			]
 		}
-	}
+	},
+	"postAttachCommand": "/home/pwuser/.venv/bin/python -m pip install robotframework-databaselibrary oracledb && cp /workspaces/rf-browser-library-devcontainer/databaseLibAanvulling/query.py ~/.venv/lib/python3.12/site-packages/DatabaseLibrary/query.py"
 }

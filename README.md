@@ -18,22 +18,6 @@
 ## Steps
 1. Install VS Code [https://code.visualstudio.com/download]
 
-
-# Database testing
-
-## Installing packages
-
-Install needed libraries
-```
-pip install databaselibrary
-pip install oracledb
-```
-
-Copy de aangepaste query.py naar de juiste locatie:
-```sh
-cp /workspaces/rf-browser-library-devcontainer/databaseLibAanvulling/query.p /workspaces/rf-browser-library-devcontainer/.venv/lib/python3.12/site-packages/DatabaseLibrary/query.py
-```
-
 ## Windows :: Optioneel
 Toevoegen Ubuntu als default WSL host waardoor browser automatisch wordt gestart op host.
 
