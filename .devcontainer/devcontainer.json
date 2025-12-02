@@ -2,6 +2,7 @@
 	"name": "RF Browser Library",
 	"image": "marketsquare/robotframework-browser",
 	"remoteUser": "pwuser",
+	"containerEnv": { "TNS_ADMIN" : "/workspaces/rf-browser-library-devcontainer/tests/wallet" },
 	"customizations": {
 		"vscode": {
             "settings": {

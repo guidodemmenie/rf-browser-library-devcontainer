@@ -16,17 +16,25 @@
 - VS Code
 
 ## Steps
-1. Install Podman Desktop [https://podman-desktop.io]
-2. Instal VS Code [https://code.visualstudio.com/download]
+1. Install VS Code [https://code.visualstudio.com/download]
 
 
-#### VS Code
-1. Settings
-1. zoek `dev.containers.dockerPath`
-1. verander **Docker Path** van `docker` naar `podman`
+# Database testing
 
+## Installing packages
 
-## Optioneel
+Install needed libraries
+```
+pip install databaselibrary
+pip install oracledb
+```
+
+Copy de aangepaste query.py naar de juiste locatie:
+```sh
+cp /workspaces/rf-browser-library-devcontainer/databaseLibAanvulling/query.p /workspaces/rf-browser-library-devcontainer/.venv/lib/python3.12/site-packages/DatabaseLibrary/query.py
+```
+
+## Windows :: Optioneel
 Toevoegen Ubuntu als default WSL host waardoor browser automatisch wordt gestart op host.
 
 - Check in cmd: `wsl --version`
@@ -60,3 +68,13 @@ Windows Subsystem for Linux Distributions:
 docker-desktop
 Ubuntu (default)
 ```
+
+
+# Resources
+|   |   |
+|---|---|
+| DatabaseLibrary | [Keyword Docs](https://marketsquare.github.io/Robotframework-Database-Library)     |
+| BrowserLibrary  | [Keyword Docs](https://marketsquare.github.io/robotframework-browser/Browser.html) |
+
+
+
